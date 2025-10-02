@@ -1,0 +1,92 @@
+.student-dashboard {
+  padding: 20px;
+  text-align: left;
+}
+
+.student-dashboard h2 {
+  color: #2c3e50;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.dashboard-section {
+  background-color: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  margin-bottom: 30px;
+}
+
+.dashboard-section h3 {
+  color: #34495e;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #ecf0f1;
+  padding-bottom: 10px;
+}
+
+.progress-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.progress-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  background-color: #fdfdfd;
+}
+
+.progress-card h4 {
+  margin-top: 0;
+  color: #3498db;
+}
+
+.progress-bar-container {
+  width: 100%;
+  background-color: #ecf0f1;
+  border-radius: 5px;
+  height: 10px;
+  margin: 15px 0;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #2ecc71; /* Green for progress */
+  border-radius: 5px;
+  transition: width 0.5s ease-in-out;
+}
+
+.progress-card p {
+  font-size: 0.9em;
+  color: #555;
+}
+
+.btn-continue, .btn-view, .btn-start {
+  margin-top: 15px;
+  padding: 8px 15px;
+  font-size: 0.9rem;
+}
+
+.recommended-list, .assessment-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.recommended-item, .assessment-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  background-color: #fdfdfd;
+}
+
+.recommended-item span, .assessment-item span {
+  font-size: 1.05em;
+  color: #444;
+}
