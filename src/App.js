@@ -4,7 +4,7 @@ import LoginPage from './pages/LoginPage';
 import StudentDashboard from './pages/StudentDashboard';
 import TeacherDashboard from './pages/TeacherDashboard';
 import PrincipalDashboard from './pages/PrincipalDashboard';
-import SchoolOnboarding from './pages/SchoolOnboarding';
+import SchoolOnboarding from './pages/admin/SchoolOnboarding';
 import Navbar from './components/Navbar';
 import './App.css'; // App-specific CSS
 
